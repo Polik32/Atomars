@@ -1,0 +1,227 @@
+/*Trade Anywhere*/
+
+.trade-anywhere{
+    margin-top:12.000em;
+}
+
+@media (max-width: 991px) {
+    .trade-anywhere{
+        margin-top:5.938em;
+    }
+}
+
+.trade-anywhere-title{
+    margin-left: 0;
+}
+
+.card-anywhere_content-slider,
+.card-anywhere_content-third-slider{
+    display: none;
+    max-width: 21.875em;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px -3px rgba(0, 0, 0, 0.25);
+    border-radius: 1.250em;
+    padding:0.625em 1.313em 2.313em 2.000em;
+    margin-right:4.688em;
+}
+
+.card-anywhere_content-third-slider{
+    padding:0.625em 1.313em 1.063em 2.000em;
+}
+
+.card-anywhere_content-img-slider{
+    float:right;
+    padding-bottom: 3.125em;
+}
+
+.card-anywhere_name-slider{
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.500em;
+    line-height: 1.938em;
+    letter-spacing: -0.005em;
+    color: #323136;
+    padding:0 0 0.625em 0;
+    margin: 0;
+}
+
+.card-anywhere_text-slider{
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.000em;
+    color: #565656;
+    padding-right:1.85em;
+    margin: 0;
+}
+
+.card-anywhere-text-second-slider{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.750em;
+    line-height: 0.875em;
+    color: #323136;
+    margin-left: 0.313em;
+}
+
+.fork{
+    padding-top: 1.125em;
+}
+
+@media (max-width: 1285px) {
+    .card-anywhere_content{
+        margin-right: 3.125em;
+        transition: all 0.5s;
+    }
+
+    .card-anywhere_name{
+        font-size: 1.438em;
+    }
+
+    .card-anywhere_text{
+        font-size: 0.938em;
+    }
+}
+
+@media (max-width: 991px) {
+    .trade-anywhere-title{
+        margin-left: 0;
+        font-size: 2.375em;
+        text-align: center;
+    }
+
+    .card-anywhere_content-third-slider{
+        margin-right: 1.875em;
+        padding:0.625em 1.250em 1.000em 2.000em;
+    }
+
+    .card-anywhere_name-slider{
+        font-size: 1.375em;
+    }
+
+    .card-anywhere_text-slider{
+        font-size: 0.875em;
+    }
+
+    .card-anywhere_content-slider,
+    .card-anywhere_content-third-slider{
+        display: flex;
+        margin-left: 80px;
+    }
+
+    .fork{
+        display: flex;
+        padding-top: 1.125em;
+        padding-bottom: 1em;
+    }
+
+    .card-anywhere-text-second-slider{
+        padding-top: 5px;
+    }
+}
+
+/**************************************/
+
+@media (max-width: 991px) {
+    .features-title{
+        padding-top: 113px;
+        text-align: center;
+    }
+
+    .card-anywhere_content-slider{
+        display: flex;
+        max-width: 300px;
+        margin-left: 100px;
+        margin-bottom: 0px;
+        margin-right: 1.875em;
+        transition: all 0.5s;
+        padding:0.625em 1.125em 1.938em 2.000em;
+    }
+
+    .card-anywhere_content-slider .slick-list {
+        display: block !important;
+    }
+
+    .card-anywhere_content-img-slider {
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .trade-anywhere .slick-prev:before {
+        opacity: 1!important;
+    }
+
+    .card-anywhere_content-slider, .card-anywhere_content-third-slider {
+        margin-right:0;
+    }
+
+    .card-anywhere_content-third-slider{
+        margin-left: 60px;
+    }
+
+    @media (max-width: 950px){
+        .card-anywhere_content-slider {
+            margin-left: 60px;
+        }
+
+        .card-anywhere_content-third-slider {
+            margin-left: 20px;
+        }
+    }
+    
+    @media (max-width: 820px){
+        .card-anywhere_content-slider {
+            max-width: 280px;
+        }
+
+        .card-anywhere_text-slider {
+            padding-right: 0;
+        }
+
+        .card-anywhere_content-third-slider {
+            margin-left: 30px;
+            max-width: 300px;
+        }
+
+        .fork {
+            padding-top: 12px;
+            padding-bottom: 0;
+        }
+    }
+    
+}
+
+.trade-anywhere .slick-prev:before {
+    opacity: 0;
+    content: url(./arrowtradeanywhere.svg) !important;
+}
+
+.trade-anywhere .slick-next{
+    transform: rotate(0deg);
+    position: absolute;
+    z-index: 5;
+    margin-right: 40px;
+}
+
+.trade-anywhere .slick-prev{
+    transform: rotate(180deg);
+    position: absolute;
+    z-index: 5;
+    margin-left: 30px;
+}
+
+.trade-anywhere .slick-next:before {
+    content: url(./arrowtradeanywhere.svg) !important;
+}
+
+@media (max-width: 575px){
+    .card-anywhere_name-slider{
+        font-size:14px;
+    }
+
+    .card-anywhere_text-slider{
+        font-size: 13px;
+    }
+}

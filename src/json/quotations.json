@@ -1,0 +1,81 @@
+[
+    {
+        "currency": "CEL/BTC",
+        "sum": "$0.00014790",
+        "arrow": "img/arrow-green.svg",
+        "percent": "+11.71%",
+        "stat":"green"
+    },
+    
+    {
+        "currency": "CEL/BTC",
+        "sum": "$0.00014790",
+        "arrow": "img/arrow-red.svg",
+        "percent": "-45.68%",
+        "stat":"red"
+    },
+
+    {
+        "currency": "CEL/BTC",
+        "sum": "$0.00014790",
+        "arrow": "img/arrow-green.svg",
+        "percent": "+11.71%",
+        "stat":"green"
+    },
+    
+    {
+        "currency": "CEL/BTC",
+        "sum": "$0.00014790",
+        "arrow": "img/arrow-red.svg",
+        "percent": "-45.68%",
+        "stat":"red"
+    },
+
+    {
+        "currency": "CEL/BTC",
+        "sum": "$0.00014790",
+        "arrow": "img/arrow-green.svg",
+        "percent": "+11.71%",
+        "stat":"green"
+    },
+    
+    {
+        "currency": "CEL/BTC",
+        "sum": "$0.00014790",
+        "arrow": "img/arrow-red.svg",
+        "percent": "-45.68%",
+        "stat":"red"
+    },
+
+    {
+        "currency": "CEL/BTC",
+        "sum": "$0.00014790",
+        "arrow": "img/arrow-green.svg",
+        "percent": "+11.71%",
+        "stat":"green"
+    },
+    
+    {
+        "currency": "CEL/BTC",
+        "sum": "$0.00014790",
+        "arrow": "img/arrow-red.svg",
+        "percent": "-45.68%",
+        "stat":"red"
+    },
+
+    {
+        "currency": "CEL/BTC",
+        "sum": "$0.00014790",
+        "arrow": "img/arrow-green.svg",
+        "percent": "+11.71%",
+        "stat":"green"
+    },
+    
+    {
+        "currency": "CEL/BTC",
+        "sum": "$0.00014790",
+        "arrow": "img/arrow-red.svg",
+        "percent": "-45.68%",
+        "stat":"red"
+    }
+]

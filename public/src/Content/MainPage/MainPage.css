@@ -1,0 +1,870 @@
+@media (max-width: 992px){
+    .container{
+      max-width: 992px;
+    }
+  }
+
+.main{
+    position: relative;
+    z-index: 5;
+}
+
+.register-and-exchange{
+    display: flex;
+    flex-direction: row;
+    padding-top:5.625em;
+}
+
+.register-and-exchange_title{
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 3.875em;
+    color: #323136;
+    line-height: 112.4%;
+    letter-spacing: -0.005em;
+    padding-bottom: 25px;
+}
+
+.register-and-exchange_text{
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.310em;
+    color: #323136;
+    line-height: 171.2%;
+    letter-spacing: 0.035em;
+    margin:0;
+}
+
+.register_button{
+    background: #0056FE;
+    border-radius: 10px;
+    width: 175px;
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    color: #FFFFFF;
+    text-align: center;
+    padding:9px 0 10px 0;
+    left: 50%;
+    display: inline-block;
+    border: 1px solid #0357FA;
+    box-sizing: border-box;
+    margin-top:48px;
+}
+
+.register_button:hover{
+    background:#ffffff;
+    color: #0056FE;
+    transition: 0.5s;
+}
+
+@media (max-width: 1199px) {
+    .register_button{
+        margin-top:33px;
+    }
+    .register-and-exchange_title{
+        font-size: 3.125em;
+    }
+
+    .register-and-exchange_text{
+        font-size: 1.250em;
+    }
+    
+}
+
+@media (max-width: 991px) {
+    .register_button{
+        margin-top:33px;
+    }
+    .register-and-exchange_title{
+        font-size: 3.000em;
+    }
+
+    .register-and-exchange_text{
+        font-size: 1.125em;
+    }
+    
+}
+
+
+/*Get in touch*/
+
+.get-in-touch{
+    margin-top:6.875em;
+}
+
+@media (max-width: 991px) {
+    .get-in-touch{
+        margin-top:6.250em;
+    }
+}
+
+.get-in-touch-title{
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2.375em;
+    line-height: 3.063em;
+    letter-spacing: -0.005em;
+    color: #323136;
+}
+
+.get-in-touch_content{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin: 2.188em 0 0 0;
+    justify-content: space-around;
+}
+
+.card-get-in-touch{
+    min-width: 18.750em;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px -3px rgba(0, 0, 0, 0.25);
+    border-radius: 1.250em;
+    margin-right: 1.875em;
+    text-align: center;
+}
+
+.card-get-in-touch_img-first{
+    max-width: 4.250em;
+    padding-top: 1.250em;
+}
+
+.card-get-in-touch_img{
+    max-width: 4.250em;
+    padding-top: 1.500em;
+}
+
+.card_service-name-first{
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.500em;
+    color: #323136;
+    text-align: center;
+    padding: 0.875em 0 1.6em 0;
+    margin:0;
+}
+
+.card_service-name{
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.500em;
+    color: #323136;
+    text-align: center;
+    padding: 1.134em 0 1.6em 0;
+    margin:0;
+}
+
+.card_service-text{
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1em;
+    text-align: center;
+    color: #565656;
+    text-align: center;
+    padding: 0 2.500em 3.438em 2.500em;
+    margin:0;
+}
+
+.get-in-touch_row{
+    margin: 0;
+}
+
+@media (max-width: 1285px) {
+    .card-get-in-touch {
+        margin-right: 1.250em;
+        min-width: 13.750em;
+        font-size: 0.938em;
+        transition: all 0.5s;
+    }
+
+    .card_service-name {
+        font-size: 1.438em;
+        padding: 1.125em 0 1.250em 0;
+    }
+
+    .card_service-name-first{
+        padding: 0.875em 0 1.14em 0;
+    }
+
+    .card_service-text {
+        font-size: 0.938em;
+        padding: 0 2.063em 2.500em 1.875em;
+    }
+}
+
+@media (max-width: 991px) {
+    .card-get-in-touch {
+        margin-right: 1.250em;
+        min-width: 13.750em;
+        font-size: 0.938em;
+        transition: all 0.5s;
+    }
+
+    .card_service-name {
+        font-size: 1.375em;
+        padding: 0.875em 0 1.000em 0;
+    }
+
+    .card_service-name-first{
+        font-size: 1.375em;
+        padding: 0.875em 0 0.875em 0;
+    }
+
+    .card_service-text {
+        font-size: 0.938em;
+        padding: 0 2.063em 2.500em 1.875em;
+    }
+}
+
+/**************************************************/
+
+/*Trade Anywhere*/
+
+.trade-anywhere{
+    margin-top:12.000em;
+}
+
+@media (max-width: 991px) {
+    .trade-anywhere{
+        margin-top:5.938em;
+    }
+}
+.trade-anywhere-title{
+    margin-left: 0;
+}
+
+.trade-anywhere_content{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin: 2.188em 0 0 0.250em;
+}
+
+.card-anywhere_content, .card-anywhere_content-third{
+    max-width: 21.875em;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px -3px rgba(0, 0, 0, 0.25);
+    border-radius: 1.250em;
+    padding:0.625em 1.313em 2.313em 2.000em;
+    margin-right:4.688em;
+}
+
+.card-anywhere_content-third{
+    padding:0.625em 1.313em 1.063em 2.000em;
+}
+
+.card-anywhere_content-img{
+    float:right;
+    padding-bottom: 3.125em;
+}
+
+.card-anywhere_name{
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.500em;
+    line-height: 1.938em;
+    letter-spacing: -0.005em;
+    color: #323136;
+    padding:0 0 0.625em 0;
+    margin: 0;
+}
+
+.card-anywhere_text{
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.000em;
+    color: #565656;
+    padding-right:1.85em;
+    margin: 0;
+}
+
+.card-anywhere-text-second{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.750em;
+    line-height: 0.875em;
+    color: #323136;
+    margin-left: 0.313em;
+}
+
+.fork{
+    padding-top: 1.125em;
+}
+
+@media (max-width: 1285px) {
+    .card-anywhere_content{
+        margin-right: 3.125em;
+        transition: all 0.5s;
+    }
+
+    .card-anywhere_name{
+        font-size: 1.438em;
+    }
+
+    .card-anywhere_text{
+        font-size: 0.938em;
+    }
+}
+
+@media (max-width: 991px) {
+    .trade-anywhere-title{
+        margin-left: 0;
+        font-size: 2.375em;
+    }
+    .card-anywhere_content{
+        margin-right: 1.875em;
+        transition: all 0.5s;
+        padding:0.625em 1.125em 1.938em 2.000em;
+    }
+
+    .card-anywhere_content-third{
+        padding:0.625em 1.250em 1.000em 2.000em;
+    }
+
+    .card-anywhere_name{
+        font-size: 1.375em;
+    }
+
+    .card-anywhere_text{
+        font-size: 0.875em;
+    }
+}
+
+/**************************************/
+
+/*Features*/
+
+.features-title{
+    padding-top: 113px;
+}
+
+.features_content{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin:0 auto;
+    padding-top:2.438em;
+}
+
+.card-features_content{
+    width: 300px;
+    height: 300px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px -3px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    margin-left: 80px;
+    margin-bottom: 60px;
+    text-align: center;
+    padding: 19px 15px 40px 15px; 
+}
+
+.card-features_content-img{
+    text-align: center;
+}
+
+.card-features_name{
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.500em;
+    line-height: 31px;
+    text-align: center;
+    letter-spacing: -0.005em;
+    color: #323136;
+    margin:0;
+    padding: 31px 0 26px 0;
+}
+
+.card-features_text{
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.000em;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: -0.005em;
+    color: #565656;
+    margin: 0 0 20px 0;
+}
+
+@media (max-width: 1199px) {
+    .card-features_content{
+        width: 280px;
+        height: 275px;
+        margin-left: 40px;
+        margin-bottom: 50px;
+    }
+
+    .card-features_name{
+        font-size: 1.375em;
+    }
+
+    .card-features_text{
+        font-size: 0.875em;
+    }
+}
+
+@media (max-width: 1000px) {
+    .card-features_content{
+        width: 270px;
+        height: 250px;
+        margin-right: 60px;
+        margin-left:0;
+    }
+    .card-features_content:nth-child(3n+3){
+        margin-right:0;
+        float:right;
+    }
+    .card-features_name{
+        padding: 16px 0 16px 0;
+    }
+    .card-features_text{
+        margin-bottom:10px;
+    }
+}
+
+@media (max-width: 930px) {
+    .card-features_content{
+        width: 270px;
+        height: 250px;
+        margin-right: 40px;
+        margin-left:0;
+    }
+}
+
+/**************************************/
+
+/*Statistics*/
+
+.statistics{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 1200px;
+    height: 115px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    text-align: center;
+    margin-top:60px;
+}
+
+.statistics-item{
+    margin: 0 auto;
+    vertical-align: auto;
+}
+
+.statistics-item_money{
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 36px;
+    letter-spacing: -0.005em;
+    color: #0156FE;
+    padding:21px 0 12px 0;
+    margin: 0;
+}
+
+.statistics-item_info{
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    letter-spacing: -0.005em;
+    color: #565656;
+    margin: 0;
+    padding-bottom: 23px;
+}
+
+@media (max-width: 1000px) {
+    .statistics-item_money{
+        font-size: 24px;
+    }
+
+    .statistics-item_info{
+        font-size: 16px;
+    }
+}
+
+/************************************************/
+
+/*Markets*/
+
+.markets{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    margin-top:84px;
+}
+
+.markets-titles{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    letter-spacing: -0.005em;
+    color: #7D7A7A;
+    padding-top: 2.000em;
+}
+
+.markets_change a{
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: -0.005em;
+    color: #49484A;
+    margin: 7px 6px 0 6px;
+}
+
+.markets_change a:hover{
+    color:#0453FE;
+}
+
+.markets-titles_item-first{
+    padding-left: 43px;
+}
+
+.markets-titles_item-second{
+    padding-left: 395px;
+    padding-right: 117px;
+}
+
+.markets-titles_item-third{
+    float:right;
+    padding-right: 117px;
+}
+
+.markets-titles_item-fourth{
+    float:right;
+    padding-right: 206px;
+}
+
+.markets_change-wrapper{
+    float: right;
+    padding-right: 365px;
+}
+
+.markets_line{
+    width: 1145px;
+    height: 0px;
+    border: 1px solid #E1E1E3;
+    transform: rotate(-0.09deg);
+    margin-top: 35px;
+}
+
+.markets-items_item{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    max-height: 90px;
+}
+
+.markets-items_item-logo{
+    padding-left: 43px;
+    padding-top: 21px;
+    padding-bottom: 15px;
+}
+
+.markets-items_item-abbreviation{
+    padding-left: 16px;
+    padding-top: 35px;
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    letter-spacing: -0.005em;
+    color: #323136;
+}
+
+.markets-items_item-name-Ethereum, .markets-items_item-name-BTC, .markets-items_item-name-BNB,
+.markets-items_item-name-LINK, .markets-items_item-name-1-INCH{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    letter-spacing: -0.005em;
+    color: #7D7A7A;
+    padding-top: 35px;
+}
+
+.markets-items_item-name-Ethereum{
+    padding-left: 28px;
+}
+
+.markets-items_item-name-BTC{
+    padding-left: 29px;
+}
+
+.markets-items_item-name-BNB{
+    padding-left: 25px;
+}
+
+.markets-items_item-name-LINK{
+    padding-left: 20px;
+}
+
+.markets-items_item-name-1-INCH{
+    padding-left: 23px;
+}
+
+.markets-items_item-sum-Ethereum, .markets-items_item-sum-BTC, .markets-items_item-sum-BNB,
+.markets-items_item-sum-LINK, .markets-items_item-sum-1-INCH{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 21px;
+    letter-spacing: -0.005em;
+    color: #000000;
+    padding-top: 35px;
+}
+
+.markets-items_item-sum-Ethereum{
+    padding-left: 237px;
+}
+
+.markets-items_item-sum-BTC{
+    padding-left: 260px;
+}
+
+.markets-items_item-sum-BNB{
+    padding-left: 281px;
+}
+
+.markets-items_item-sum-LINK{
+    padding-left: 241px;
+}
+
+.markets-items_item-sum-1-INCH{
+    padding-left: 247px;
+}
+
+.markets-items_item-percent{
+    padding-left: 118px;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 21px;
+    letter-spacing: -0.005em;
+    color: #FF0000;
+    padding-top: 35px;
+}
+
+.markets-items_item-graph{
+    padding-left: 118px;
+    padding-top: 18px;
+}
+
+.markets-items_button{
+    width: 70px;
+    height: 35px;
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: -0.005em;
+    color: #FFFFFF;
+    background: #0453FE;
+    border-radius: 10px;
+    margin-left:51px;
+    margin-top: 28px;
+    border: 1px solid #0357FA;
+}
+
+.markets-items_button:hover{
+    background:#ffffff;
+    color: #0056FE;
+    transition: 0.5s;
+}
+
+.markets_line-second{
+    width: 1145px;
+    height: 0px;
+    border: 1px solid #E1E1E3;
+    transform: rotate(-0.09deg);
+}
+
+.markets-more-wrapper{
+    text-align: center;
+    padding-top: 9px;
+    padding-bottom: 20px;
+}
+
+.markets-more{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: -0.05em;
+    color: #565656;
+}
+
+.markets-more:hover{
+    color: #565656;
+}
+
+@media (max-width: 1199px) {
+    .markets-titles_item-first{
+        padding-left: 36.5px;
+    }
+    
+    .markets-titles_item-second{
+        padding-left: 324.5px;
+        padding-right: 103.5px;
+    }
+    
+    .markets-titles_item-third{
+        float:right;
+        padding-right: 95.5px;
+    }
+    
+    .markets-titles_item-fourth{
+        float:right;
+        padding-right: 141.5px;
+    }
+
+    .markets_change-wrapper{
+        padding-right: 455px;
+    }
+
+    .markets-items_item-logo{
+        padding-left: 41.5px;
+    }
+    
+    .markets-items_item-abbreviation{
+        padding-left: 14.5px;
+        font-size: 17px;
+    }
+    
+    .markets-items_item-name{
+        padding-left: 27px;
+        font-size: 17px;
+    }
+    
+    .markets-items_item-sum-Ethereum, .markets-items_item-sum-BTC, .markets-items_item-sum-BNB,
+    .markets-items_item-sum-LINK, .markets-items_item-sum-1-INCH{
+        font-size: 15px;
+    }
+
+    .markets-items_item-sum-Ethereum{
+        padding-left: 171.5px;
+    }
+    
+    .markets-items_item-sum-BTC{
+        padding-left: 194.5px;
+    }
+    
+    .markets-items_item-sum-BNB{
+        padding-left: 215.5px;
+    }
+    
+    .markets-items_item-sum-LINK{
+        padding-left: 175.5px;
+    }
+    
+    .markets-items_item-sum-1-INCH{
+        padding-left: 181.5px;
+    }
+    
+    .markets-items_item-percent{
+        padding-left: 106px;
+        font-size: 15px;
+    }
+    
+    .markets-items_item-graph{
+        padding-left: 70px;
+    }
+    
+    .markets-items_button{
+        width: 65px;
+        height: 32.5px;
+        font-size: 13px; 
+        margin-left:22px;
+        margin-top: 30px;
+    }
+    
+    .markets_line, .markets_line-second{
+        width:965px;
+    }
+
+    .markets-more{
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .markets-titles{
+        font-size: 16px;
+    }
+
+    .markets_change a{
+        font-size: 12px;
+    }
+
+    .markets-items_item-abbreviation{
+        font-size: 16px;
+    }
+
+    .markets-items_item-name-Ethereum, .markets-items_item-name-BTC, .markets-items_item-name-BNB,
+    .markets-items_item-name-LINK, .markets-items_item-name-1-INCH{
+        font-size: 16px;
+    }
+
+    .markets-items_item-sum-Ethereum, .markets-items_item-sum-BTC, .markets-items_item-sum-BNB,
+    .markets-items_item-sum-LINK, .markets-items_item-sum-1-INCH{
+        font-size: 14px;
+    }
+
+    .markets-items_item-percent{
+        font-size: 14px;
+    }
+
+    .markets-items_button{
+        width: 60px;
+        height: 30px;
+        font-size: 12px;
+    }
+
+    .markets-more{
+        font-size: 14px;
+    }
+
+    .markets-items_item-name-Ethereum{
+        padding-left: 27px;
+    }
+    
+    .markets-items_item-name-BTC{
+        padding-left: 27px;
+    }
+    
+    .markets-items_item-name-BNB{
+        padding-left: 22px;
+    }
+    
+    .markets-items_item-name-LINK{
+        padding-left: 21px;
+    }
+    
+    .markets-items_item-name-1-INCH{
+        padding-left: 23px;
+    }
+}

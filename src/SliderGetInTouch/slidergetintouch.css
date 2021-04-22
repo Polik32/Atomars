@@ -1,0 +1,144 @@
+/*Get in touch*/
+
+.get-in-touch{
+    margin-top:6.875em;
+}
+
+@media (max-width: 991px) {
+    .get-in-touch{
+        margin-top:6.250em;
+    }
+}
+
+.get-in-touch-title{
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2.375em;
+    line-height: 3.063em;
+    letter-spacing: -0.005em;
+    color: #323136;
+}
+
+.get-in-touch_content{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin: 2.188em 0 0 0;
+    justify-content: space-around;
+}
+
+.card-get-in-touch_img-first-slider{
+    max-width: 4.250em;
+    padding-top: 1.250em;
+}
+
+.card-get-in-touch_img-slider{
+    max-width: 4.250em;
+    padding-top: 1.500em;
+}
+
+.card_service-name-first-slider{
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.500em;
+    color: #323136;
+    text-align: center;
+    padding: 0.875em 0 1.6em 0;
+    margin:0;
+}
+
+.card_service-name-slider{
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.500em;
+    color: #323136;
+    text-align: center;
+    padding: 1.134em 0 1.6em 0;
+    margin:0;
+}
+
+.card_service-text-slider{
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1em;
+    text-align: center;
+    color: #565656;
+    text-align: center;
+    padding: 0 2.500em 3.438em 2.500em;
+    margin:0;
+}
+
+.get-in-touch_row{
+    margin: 0;
+}
+
+@media (max-width: 991px) {
+    .card-get-in-touch-slider {
+        margin-right: 1.250em;
+        max-width: 13.750em;
+        font-size: 0.938em;
+        transition: all 0.5s;
+        max-width: 300px;
+        margin-left: 100px;
+    }
+
+    .card_service-name-slider {
+        font-size: 1.375em;
+        padding: 0.875em 0 1.000em 0;
+    }
+
+    .card_service-name-first-slider{
+        font-size: 1.375em;
+        padding: 0.875em 0 0.875em 0;
+    }
+
+    .card_service-text-slider{
+        font-size: 0.938em;
+        padding: 0 2.063em 2.500em 1.875em;
+    }
+
+    .card-get-in-touch_img-slider,
+    .card-get-in-touch_img-first-slider{
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 950px){
+    .card-get-in-touch-slider {
+        margin-left: 60px;
+    }
+}
+
+@media (max-width: 820px){
+    .card-get-in-touch-slider {
+        max-width: 270px;
+    }
+}
+
+
+.get-in-touch .slick-prev:before {
+    opacity: 1;
+    content: url(./slidergetintouch.svg) !important;
+}
+
+.get-in-touch .slick-next{
+    transform: rotate(0deg);
+    position: absolute;
+    z-index: 5;
+    margin-right: 40px;
+}
+
+.get-in-touch .slick-prev{
+    transform: rotate(180deg);
+    position: absolute;
+    z-index: 5;
+    margin-left: 30px;
+}
+
+.get-in-touch .slick-next:before {
+    content: url(./slidergetintouch.svg) !important;
+}

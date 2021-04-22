@@ -1,0 +1,153 @@
+header{
+  background-color: #243040;
+  color:#FFFFFF;
+  z-index: 100;
+  box-sizing:border-box;
+}
+
+.menu-left-logo{
+  width:100%;
+  vertical-align: middle;
+}
+
+nav {
+  display: table;
+  margin: 0 auto;
+}
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.topmenu {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+.topmenu:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.topmenu > li {
+  z-index: 150;
+  display: inline-block;
+  position: relative;
+}
+.topmenu > li > a {
+  text-decoration: none;
+  list-style-type: none;
+  cursor: pointer;
+  display: flex;
+  padding: 13px 6.5px;
+  outline: none;
+  transition: .5s linear;
+  font-family: IBM Plex Sans;
+  font-size: 14px;
+  color: #FFFFFF;
+  line-height: 18px;
+  letter-spacing: -0.005em;
+}
+.topmenu li a:hover { color: #D5B45B; }
+/*.submenu-link:after {
+  content: "\f107";
+  font-family: "FontAwesome";
+  color: inherit;
+  margin-left: 10px;
+}*/
+.submenu {
+  background: #273037;
+  left: 0;
+  top: 100%;
+  width: 180px;
+  opacity: 0;
+  transform: scaleY(0);
+  transform-origin: 0 0;
+  transition: .5s ease-in-out;
+}
+.submenu a {
+  color: white;
+  text-align: left;
+  padding: 12px 15px;
+  font-size: 13px;
+  border-bottom: 1px solid rgba(255,255,255,.1);
+}
+.submenu li:last-child a { border-bottom: none; }
+.topmenu > li:hover .submenu {
+  opacity: 1;
+  transform: scaleY(1);
+}
+
+svg{
+  margin: 3px 0 3px 0;
+}
+
+.what-we-do{
+  margin:auto 0;
+  padding: 0 20px 10px 20px;
+}
+
+
+.menu-right_items {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  padding: 10px 0 0 150px;
+}
+
+.menu-right_items li{
+  text-decoration: none;
+  list-style-type: none;
+  margin: 0 10px 0 10px;
+  cursor: pointer;
+}
+
+.menu-right_button{
+  font-family: IBM Plex Sans;
+  font-size: 13px;
+  color:#FFFFFF;
+  width: 70px;
+  background: #0056FE;
+  border-radius: 5px;
+  border: 1px solid #0357FA;
+  margin-right: 15px;
+  padding:5px;
+}
+
+.menu-right_button:hover{
+  background: transparent;
+  border: 1px solid #0357FA;
+  color:#FFFFFF;
+}
+
+.horizon{
+  overflow-x: hidden!important;
+}
+
+.quotation{
+  padding-top:5px;
+  padding-bottom:10px;
+  overflow-x: hidden!important;
+}
+
+.language{
+  border: none;
+  background: transparent;
+  color:#FFFFFF;
+  cursor: pointer;
+  margin-top:2px;
+}
+
+.language_option{
+  border: none;
+  background: transparent;
+  color: #212529;
+  cursor: pointer;
+}
+
+.vertical-line {
+  border: 1px solid #FFFFFF;
+  height: 25px;
+  margin: 10px 5px 0 5px;
+}

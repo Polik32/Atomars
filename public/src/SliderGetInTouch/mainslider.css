@@ -1,0 +1,30 @@
+.mainSlider{
+    margin-top: 85px;
+}
+
+.mainSlider img{
+    width:282px;
+    padding-right:12.5px;
+}
+
+.slick-prev{
+    transform: rotate(180deg);
+    position: absolute;
+    z-index: 5;
+    margin-left: 30px;
+}
+
+.slick-prev:before {
+    content: url(img/arrow.png) !important;
+}
+
+.slick-next{
+    transform: rotate(0deg);
+    position: absolute;
+    z-index: 5;
+    margin-right: 40px;
+}
+
+.slick-next:before {
+    content: url(img/arrow.png) !important;
+}

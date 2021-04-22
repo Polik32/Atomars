@@ -1,0 +1,87 @@
+@-webkit-keyframes scroll {
+    0% {
+        -webkit-transform: translate(0, 0);
+        transform: translate(0, 0);
+    }
+    100% {
+        -webkit-transform: translate(-100%, 0);
+        transform: translate(-100%, 0)
+    }
+}
+ 
+@-moz-keyframes scroll {
+    0% {
+        -moz-transform: translate(0, 0);
+        transform: translate(0, 0);
+    }
+    100% {
+        -moz-transform: translate(-100%, 0);
+        transform: translate(-100%, 0)
+    }
+}
+ 
+@keyframes scroll {
+    0% {
+        transform: translate(0, 0);
+    }
+    100% {
+        transform: translate(-100%, 0)
+    }
+}
+ 
+.marquee {
+    display: flex;
+    width: max-content;
+    white-space: nowrap;
+    padding-left: 50%;
+    left:1000px;
+    -webkit-animation: scroll 100s infinite linear;
+    -moz-animation: scroll 100s infinite linear;
+    animation: scroll 100s infinite linear;
+}
+
+.marque span{
+    margin-left: 10px;
+    width: 100%;
+}
+
+.marque_currency{
+    font-family: IBM Plex Sans;
+    font-size: 12px;
+    color: #F8F8F8;
+    font-weight: 500;
+}
+
+.marque_sum{
+    font-family: IBM Plex Sans;
+    font-size: 12px;
+    color: #C5C5C5;
+    letter-spacing: -0.005em;
+    line-height: 16px;
+}
+
+.marquee img {
+    margin-left: 5px;
+}
+
+.red{
+    font-family: IBM Plex Sans;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: -0.005em;
+    color:#F84960;
+}
+
+.green{
+    font-family: IBM Plex Sans;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: -0.005em;
+    color:#02C076;
+}
+
+@media (max-width: 665px){
+.marque_currency{
+    color: #000;
+  }
+}
